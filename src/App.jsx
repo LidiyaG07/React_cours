@@ -1,4 +1,5 @@
 import Catalog from "./components/catalog/Catalog";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Product from "./components/product/Product";
 import "./index.css";
@@ -57,6 +58,7 @@ function App() {
           return <Product product={i} key={index} />;
         })}
       </Catalog>
+      <Footer />
     </div>
   );
 }

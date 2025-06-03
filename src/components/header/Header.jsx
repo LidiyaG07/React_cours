@@ -10,7 +10,7 @@ function Header() {
   return (
     <div>
       <header className="header">
-        <h1>Electronuck store</h1>
+        <h1>Electronik store</h1>
         <nav className="nav">
           <ul>
             <li>

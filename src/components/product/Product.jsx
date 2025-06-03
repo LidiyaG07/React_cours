@@ -1,3 +1,4 @@
+import "./Product.css";
 function Product(props) {
   const {
     photoName: srcPhoto,
@@ -6,7 +7,7 @@ function Product(props) {
     price,
   } = props.product;
   return (
-    <li>
+    <li className="product">
       <img src={srcPhoto} />
       <div>
         <h3>{nameTitle}</h3>
